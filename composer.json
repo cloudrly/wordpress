@@ -50,6 +50,9 @@
 		"cloudrly/webroot-installer": "^1",
 		"php": "^8"
 	},
+	"provide": {
+		"wordpress/wordpress-core": "6.1.1"
+	},
 	"config": {
 		"allow-plugins": {
 			"cloudrly/webroot-installer": true
