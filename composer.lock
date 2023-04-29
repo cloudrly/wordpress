@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6607764b9187f1c5868bfb3958518329",
+    "packages": [
+        {
+            "name": "cloudrly/webroot-installer",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cloudrly/webroot-installer.git",
+                "reference": "40bd1056b424de9fa33b26c87e7543fba2d36b71"
+            },
+            "require": {
+                "composer-plugin-api": "^2.3",
+                "php": "^7.2.5 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.4"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Cloudrly\\Composer\\WebRoot\\WebRootInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cloudrly\\Composer\\WebRoot\\": "src"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Installs files/package in a webroot directory",
+            "keywords": [
+                "composer",
+                "dependency",
+                "install",
+                "tool",
+                "webroot",
+                "wordpress"
+            ],
+            "time": "2023-04-29T20:07:33+00:00"
+        },
+        {
+            "name": "cloudrly/wordpress-core",
+            "version": "6.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://wordpress.org/wordpress-6.1.1.tar.gz"
+            },
+            "type": "webroot"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
