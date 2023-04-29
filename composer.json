@@ -35,11 +35,6 @@
 					"type": "tar"
 				}
 			}
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/cloudrly/webroot-installer.git",
-			"only": ["cloudrly/webroot-installer"]
 		}
 	],
 	"extra" : {
@@ -51,7 +46,7 @@
 		"php": "^8"
 	},
 	"provide": {
-		"wordpress/wordpress-core": "^6"
+		"wordpress/wordpress-core": "*"
 	},
 	"config": {
 		"allow-plugins": {
