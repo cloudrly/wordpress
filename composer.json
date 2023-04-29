@@ -7,6 +7,7 @@
 		"cms"
 	],
 	"type": "package",
+	"minimum-stability": "dev",
 	"homepage": "https://wordpress.org/",
 	"license": "GPL-3.0+",
 	"authors": [
