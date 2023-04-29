@@ -7,7 +7,6 @@
 		"cms"
 	],
 	"type": "package",
-	"minimum-stability": "dev",
 	"homepage": "https://wordpress.org/",
 	"license": "GPL-3.0+",
 	"authors": [
@@ -47,6 +46,12 @@
 	},
 	"require" : {
 		"cloudrly/wordpress-core" : "^6",
+		"cloudrly/webroot-installer": "^1",
 		"php": "^8"
+	},
+	"config": {
+		"allow-plugins": {
+			"cloudrly/webroot-installer": true
+		}
 	}
 }
