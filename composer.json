@@ -41,7 +41,6 @@
 		"webroot-package": "cloudrly/wordpress-core"
 	},
 	"require" : {
-		"cloudrly/wordpress-core" : "^6",
 		"cloudrly/webroot-installer": "^1",
 		"php": "^8"
 	},
