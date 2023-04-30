@@ -45,7 +45,7 @@
 		"php": "^8"
 	},
 	"provide": {
-		"wordpress/wordpress-core": "*"
+		"cloudrly/wordpress-core": "*"
 	},
 	"config": {
 		"allow-plugins": {
