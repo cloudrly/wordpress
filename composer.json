@@ -26,15 +26,12 @@
 	"extra" : {
 		"webroot-repositories": [
 			{
-				"type": "package",
-				"package": {
-					"name": "cloudrly/wordpress-core",
-					"type": "webroot",
-					"version": "6.1.1",
-					"dist": {
-						"url": "https://wordpress.org/wordpress-6.1.1.tar.gz",
-						"type": "tar"
-					}
+				"name": "cloudrly/wordpress-core",
+				"type": "webroot",
+				"version": "6.1.1",
+				"dist": {
+					"url": "https://wordpress.org/wordpress-6.1.1.tar.gz",
+					"type": "tar"
 				}
 			}
 		],
