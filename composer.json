@@ -23,29 +23,26 @@
 		"irc": "irc://irc.freenode.net/wordpress",
 		"source": "https://core.trac.wordpress.org/browser"
 	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "cloudrly/wordpress-core",
-				"type": "webroot",
-				"version": "6.1.1",
-				"dist": {
-					"url": "https://wordpress.org/wordpress-6.1.1.tar.gz",
-					"type": "tar"
+	"extra" : {
+		"webroot-repositories": [
+			{
+				"type": "package",
+				"package": {
+					"name": "cloudrly/wordpress-core",
+					"type": "webroot",
+					"version": "6.1.1",
+					"dist": {
+						"url": "https://wordpress.org/wordpress-6.1.1.tar.gz",
+						"type": "tar"
+					}
 				}
 			}
-		}
-	],
-	"extra" : {
+		],
 		"webroot-package": "cloudrly/wordpress-core"
 	},
 	"require" : {
 		"cloudrly/webroot-installer": "^1",
 		"php": "^8"
-	},
-	"provide": {
-		"cloudrly/wordpress-core": "*"
 	},
 	"config": {
 		"allow-plugins": {
